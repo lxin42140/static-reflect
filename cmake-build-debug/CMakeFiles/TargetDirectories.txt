@@ -1,0 +1,3 @@
+/Users/qichencao/workspace/static-reflect/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/qichencao/workspace/static-reflect/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/qichencao/workspace/static-reflect/cmake-build-debug/CMakeFiles/static_reflect.dir
