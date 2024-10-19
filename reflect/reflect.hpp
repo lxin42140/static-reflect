@@ -59,7 +59,9 @@ struct reflect_trait {
 
   template <class Func>
   static constexpr void iterate_members(T& obj, Func&& func) {
-    T::template iterate_members(obj, std::forward<Func>(func));
+    // fixme: not all template fulfills iterate_members
+    // T::template iterate_members(obj, std::forward<Func>(func));
+    T::iterate_members(obj, std::forward<Func>(func));
   }
 };
 

@@ -4,7 +4,7 @@
 #include <map>
 
 #include "../../reflect.hpp"
-#include "nlohmann/json.hpp"
+#include "../../../nlohmann/json.hpp"
 
 namespace {
 template <class T>
